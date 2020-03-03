@@ -4,15 +4,7 @@
 $ git remote add origin /path/to/origin.git
 $ git add .
 ```
-
-### Oops! Never committed!
-
-```sh
-$ git push -u origin master
-$ error: src refspec master does not match any.
-```
-
-## All I had to do was:
+## Commit:
 
 ```sh
 $ git commit -m "initial commit"
